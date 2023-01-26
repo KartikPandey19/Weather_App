@@ -60,6 +60,6 @@ fetch('https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?city=delhi
 	.then(response => response.json())
 	.then(response => {
 		console.log(response)
-		PM10.innerHTML=response.PM10;
+		// PM10.innerHTML=response.PM10;
 	})
 	.catch(err => console.error(err));
